@@ -12,4 +12,6 @@
 output "IP" {
     value = "aws_instance.MyEC2.ip"
 }
+
+#this is single line commit
 }
