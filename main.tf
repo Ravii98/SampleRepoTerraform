@@ -8,4 +8,8 @@
  resource resource "aws_iam_user" "AWSIAM_USER" {
     default = "ravi"
  }
+
+output "IP" {
+    value = "aws_instance.MyEC2.ip"
+}
 }
